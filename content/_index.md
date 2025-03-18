@@ -229,7 +229,7 @@ sections:
           blocks:
             - _bookshop_name: cloudcannon/simple/headline
               content:
-                text: Why is Share the best cost tracking app for you?
+                text: Why is Share the best cost tracking app for you? iyh
               style:
                 heading_level: h3
                 text_color: Primary
@@ -358,6 +358,37 @@ sections:
       borders: false
       custom_background_color: true
       background_color: '#f5f5f5'
+  - _bookshop_name: cloudcannon/sections/one-column
+    content:
+      blocks:
+        - _bookshop_name: cloudcannon/socials
+          content:
+            logo_links:
+              - url: https://www.facebook.com/CloudCannon
+                logo: /uploads/facebook.svg
+                alt: Facebook logo
+                open_in_new_tab: true
+              - url: https://twitter.com/CloudCannon
+                logo: /uploads/twitter.svg
+                alt: Twitter logo
+                open_in_new_tab: true
+              - url: https://instagram.com
+                logo: /uploads/instagram.svg
+                alt: Instagram logo
+                open_in_new_tab: true
+          style:
+            content_alignment: Center
+    style:
+      custom_background_color: false
+      background_color: '#f5f5f5'
+      content_alignment: Center
+      content_width: Large
+  - _bookshop_name: cloudcannon/structural/spacer
+    style:
+      height: 200
+  - _bookshop_name: cloudcannon/structural/spacer
+    style:
+      height: 200
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 200
@@ -400,34 +431,6 @@ sections:
   - _bookshop_name: cloudcannon/sections/one-column
     content:
       blocks:
-        - _bookshop_name: cloudcannon/socials
-          content:
-            logo_links:
-              - url: https://www.facebook.com/CloudCannon
-                logo: /uploads/facebook.svg
-                alt: Facebook logo
-                open_in_new_tab: true
-              - url: https://twitter.com/CloudCannon
-                logo: /uploads/twitter.svg
-                alt: Twitter logo
-                open_in_new_tab: true
-              - url: https://instagram.com
-                logo: /uploads/instagram.svg
-                alt: Instagram logo
-                open_in_new_tab: true
-          style:
-            content_alignment: Center
-    style:
-      custom_background_color: false
-      background_color: '#f5f5f5'
-      content_alignment: Center
-      content_width: Large
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
-  - _bookshop_name: cloudcannon/sections/one-column
-    content:
-      blocks:
         - _bookshop_name: cloudcannon/simple/paragraph
           content:
             text: © 2022 Share App.
@@ -436,8 +439,5 @@ sections:
       background_color: '#f5f5f5'
       content_alignment: Center
       content_width: Large
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
-
 ---
+Testtttt
