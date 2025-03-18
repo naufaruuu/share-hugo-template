@@ -1,9 +1,23 @@
+_schema: _schema
+collections_config:
+  pages:
+    icon: notes
+    output: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: schemas/pages.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
 _enabled_editors:
   - visual
   - content
-
-data_config: true
-
+  - data
 _inputs:
   content_alignment:
     type: choice
@@ -17,6 +31,7 @@ _inputs:
           name: Center
         - icon: align_horizontal_right
           name: Right
+    cascade: true
   vertical_alignment:
     type: choice
     options:
@@ -29,9 +44,11 @@ _inputs:
           name: Middle
         - icon: align_vertical_bottom
           name: Bottom
+    cascade: true
   content_width:
     type: choice
     options:
+      allow_empty: true
       values:
         - name: Small
           icon: width_normal
@@ -39,9 +56,6 @@ _inputs:
           icon: width_wide
         - name: Large
           icon: rectangle
-
-collections_config:
-  pages:
-    schemas: 
-      default:
-        path: schemas/pages.md
+    cascade: true
+data_config: true
+timezone: Etc/UTC
